@@ -1,0 +1,144 @@
+﻿<style type="text/css">
+
+    .gtr {
+	
+color: white; 
+text-shadow: 1px 1px 2px red, 0 0 3px red, 0 0 3px red;
+text-align: center;
+}
+.threed{
+color:<?=$bodytext?>;
+text-shadow: 0 1px 0 #f2ccff,
+               0 2px 0 #ecb3ff,
+               0 3px 0 #e699ff,
+               0 4px 0 #df80ff,
+               0 5px 0 #d966ff,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);	
+   
+	
+}
+.threed2{
+text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);	
+	
+}	
+.shadow { 
+  color: white; 
+   font: bold 52px Helvetica, Arial, Sans-Serif;
+   text-shadow: 1px 1px #fe4902, 
+                2px 2px #fe4902, 
+                3px 3px #fe4902;
+   -webkit-transition: all 0.12s ease-out;
+   -moz-transition:    all 0.12s ease-out;
+   -ms-transition:     all 0.12s ease-out;
+   -o-transition:      all 0.12s ease-out;
+}
+.shadow:hover {
+   position: relative; 
+   top: -3px; 
+   left: -3px; 
+   text-shadow: 1px 1px #fe4902, 
+                2px 2px #fe4902, 
+                3px 3px #fe4902, 
+                4px 4px #fe4902, 
+                5px 5px #fe4902, 
+                6px 6px #fe4902;
+}	
+	
+.shadow2 {
+font-family: Helvetica;
+text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+.shadow2 {
+  text-align: center;
+}
+	
+.txtp{
+color:#DF00DF;
+	
+	
+	
+}
+   .gtw {
+	
+
+text-shadow: 1px 1px 2px black, 0 0 5px blue, 0 0 5px red;
+text-align: center;
+	
+	
+	
+}
+    .gtb {
+	
+
+text-shadow: 1px 1px 2px green, 0 0 5px blue, 0 0 5px red;
+text-align: center;
+	
+	
+	
+}
+    .gtr {
+	
+
+text-shadow: 1px 1px 2px red, 0 0 3px red, 0 0 3px red;
+text-align: center;
+}
+.sticky-topbar {
+  width: 100%;
+}
+.pricing-table {
+  background-color: <?=$bodycolour?>;
+  border: solid 1px <?=$calloutborder?>;
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+}
+
+.pricing-table li {
+  border-bottom: dotted 1px <?=$calloutborder?>;
+  padding: 0.875rem 1.125rem;
+}
+
+.pricing-table li:last-child {
+  border-bottom: 0;
+}
+
+.pricing-table .title {
+  background-color: <?=$topbarbackgroundcolour?>;
+  color: <?=$topbartextcolour?>;
+  border-bottom: 0;
+}
+
+.pricing-table .price {
+  background-color: <?=$bodytext?>;
+  font-size: 2rem;
+  border-bottom: 0;
+}
+
+.pricing-table .description {
+  color: $callouttext;
+  font-size: 80%;
+}
+
+.pricing-table :last-child {
+  margin-bottom: 0;
+}
+
+</style>
