@@ -27,6 +27,8 @@ The downloads for the current database ( sql file)  are located at
 
 https://theo.itechecom.com
 
+There is no Login or signup up needed just go to the download section and get the file
+
 
 We are currently updating and modifying the database. This is  a huge investment in manhours and as such we are looking for donations to keep this project going and active.
 
